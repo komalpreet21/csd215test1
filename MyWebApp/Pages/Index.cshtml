@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">komal's calculator</h1>
+
+
+
+    <form action="" method="POST">
+    <input type="text" name="value1" value=""placeholder="number1"> <br>
+    <input type="text" name="value2" value=""placeholder="number2"> <br>
+    <input type="text" name="result" value="@ViewData["result"]"> <br>
+
+    <button type="submit" name="power" value="power">power</button> 
+    <button type="submit" name="x2" value="x2">x2</button>
+    <button type="submit" name="x3" value="x3">x3</button>
+
+
+</form>
+
+    
+</div>
